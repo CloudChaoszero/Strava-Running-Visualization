@@ -27,7 +27,7 @@ thead = d3.select("table").selectAll("th")
 .data(["Activity ID","Distance"]).enter().append("th").text(function(d){return d})
 
 
-d3.json("../db/MainDataset.json",function(error,JSONdata){
+d3.json("MainDataset.json",function(error,JSONdata){
     if(error){
         console.error()
     }
