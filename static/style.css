@@ -1,0 +1,68 @@
+body {
+  padding: 0;
+  margin: 0;
+  background: "{{ url_for('static',filename='Images/sf-location.jpg') }}" no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  opacity: 1;
+  -o-background-size: cover;
+  background-size: cover;
+}
+background{
+  opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+
+html { 
+  padding: 0;
+  margin: 0;
+}
+
+#inds{
+	position:absolute;
+	top:5px;
+	left:1px;
+}
+
+/* .bar {
+  fill: black;
+} */
+.background{
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+ .tooltip.n{
+  display: true;
+  width: 90px;
+  height: 100px;
+  padding: 10px;
+  font: 14px sans-serif;
+  text-align: center;
+  background:grey;
+  color: black;
+  border: 1;
+  opacity: 1;
+  border-radius: 10px;
+}
+
+table {
+  width: 75%;
+  border-collapse: collapse;
+  margin-left:auto; 
+  margin-right:auto;
+}
+
+
+
+/*table frame*/ 
+
+td, th {
+  padding: 1px 4px;
+  border: 1px black solid;
+  font-weight:bold;
+}
